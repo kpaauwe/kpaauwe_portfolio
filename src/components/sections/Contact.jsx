@@ -11,7 +11,6 @@ const [formData, setFormData] = useState({
 })
     const handleSubmit = (e) => {
         e.preventDefault ();
-
         emailJs
             .sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, e.target, import.meta.env.VITE_PUBLIC_KEY)
             .then((result) => {
