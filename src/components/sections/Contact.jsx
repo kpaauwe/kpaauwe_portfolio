@@ -13,7 +13,7 @@ const [formData, setFormData] = useState({
         e.preventDefault ();
 
         emailJs
-            .sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLETE_ID, e.target, import.meta.env.VITE_PUBLIC_KEY)
+            .sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, e.target, import.meta.env.VITE_PUBLIC_KEY)
             .then((result) => {
                 alert("Message Sent!");
                 setFormData({name: "", email: "", message: "" });
@@ -53,8 +53,7 @@ const [formData, setFormData] = useState({
                                 />
                         </div>
                         <div className="relative">
-                            <input 
-                                type="text" 
+                            <textarea 
                                 id="message" 
                                 name="message"
                                 required 
