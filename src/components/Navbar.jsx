@@ -1,4 +1,5 @@
 import { useEffect } from "react"
+import logo from "../assets/kpFavicon.png"
 
 export const Navbar = ({menuOpen, setMenuOpen}) => {
     useEffect(() => {
@@ -8,8 +9,9 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
         <nav className= "fixed top-0 w-full z-40 bg-[rgba(10, 10, 10, 0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
             <div className="max-w-5xl mx-auto px-4">
                 <div className="flex justify-between items-center h-16">
-                    <a href="#home" className="font-mono text-xl font-bold text-white">
-                        Kieran <span className="text-blue-500">Paauwe</span>
+                    <a href="#home" className="font-mono text-xl font-bold text-white flex">
+                        <img src={logo} alt='navbar logo'
+                                             className='h-10 w-10 rounded-full text-center'/>
                     </a>
 
                     <div
