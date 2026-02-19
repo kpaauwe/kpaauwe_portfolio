@@ -27,6 +27,46 @@ export const Projects = () => {
               </div>
             </div>
 
+            {/* Athlete Helper */}
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-green-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
+              <h3 className="text-xl font-bold mb-2">Athlete Helper Application</h3>
+              <p className="text-gray-400 mb-4">
+              This project implements a complete volleyball team management system built on four organized MongoDB collections, each supported by thorough JSON Schema validation. The backend includes twelve strategic indexes such as unique, compound, text, and partial indexes to maintain efficient queries and data accuracy. The system also makes extensive use of more than thirty six find queries that utilize logical, comparison, expression, and array operators, along with eight multi stage aggregation pipelines that carry out complex transformations. To enhance usability, the project incorporates text search capabilities and a Next.js frontend designed for clear and effective data visualization.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["Next.js", "MongoDB", "Database Systems"].map((tech, key) => (
+                  <span key={key} className="bg-green-500/10 text-green-500 py-1 px-3 rounded-full text-sm hover:bg-green-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div className="flex justify-between items-center">
+                <a href="https://github.com/kpaauwe/CSCI485_Project" className="text-green-400 hover:text-green-300 transition-colors">
+                  View Github Repo
+                </a>
+              </div>
+            </div>
+
+               {/* Dungeon Crawler */}
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-green-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
+              <h3 className="text-xl font-bold mb-2">Crypt Crawler</h3>
+              <p className="text-gray-400 mb-4">
+              2D top down Dungeon Crawler game built using pygame from Python. School group project with 3 developers. Used API's to randomly generate map levels based on weather and included random facts imported and displayed during level switching
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["Python", "Pygame", "Github", "Agile development"].map((tech, key) => (
+                  <span key={key} className="bg-green-500/10 text-green-500 py-1 px-3 rounded-full text-sm hover:bg-green-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div className="flex justify-between items-center">
+                <a href="https://github.com/kmplit/csci331project" className="text-green-400 hover:text-green-300 transition-colors">
+                  View Github Repo
+                </a>
+              </div>
+            </div>
+
             {/* WRTWC React rebuild */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-green-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
               <h3 className="text-xl font-bold mb-2">We Run The World Coaching (React Rebuild)</h3>

@@ -17,7 +17,8 @@ export const About = () => {
         "MongoDB",
         "Oracle SQL",
         "C/C++",
-        "Lisp"
+        "Lisp",
+        "Python"
     ];
     
     const toolsAndPlatforms = [
