@@ -14,7 +14,7 @@ export const knowledgeChunks = [
   {
     "id": "about_summary",
     "category": "about",
-    "content": "Highly motivated and detail-oriented third-year Computer Science student (B.Sc). Eager to apply my programming skills and passion for creating user-friendly and visually appealing web experiences with usability in mind. Dedicated to contributing to a dynamic team and gaining practical experience in the field.",
+    "content": "Highly motivated and detail-oriented fourth-year Computer Science student (B.Sc). Eager to apply my programming skills and passion for creating user-friendly and visually appealing web experiences with usability in mind. Dedicated to contributing to a dynamic team and gaining practical experience in the field.",
     "metadata": { "section": "about", "type": "summary" }
   },
   {
@@ -125,5 +125,27 @@ export const knowledgeChunks = [
     "content": "Send me a message.",
     "metadata": { "section": "contact", "type": "cta" }
   },
+  {
+    "id": "contact_info",
+    "category": "contact",
+    "content": "My email is kpaauwe04@gmail.com, My Number is 403-870-9406",
+    "metadata": { "section": "contact", "type": "cta" }
+  },
+  {
+    "id": "my_links",
+    "category": "contact",
+    "content": "GitHub: https://github.com/kpaauwe, LinkedIn: https://www.linkedin.com/in/kieran-paauwe/",
+    "metadata": { "section": "contact", "type": "cta" }
+  }, {
+    "id": "contact_message",
+    "category": "contact",
+    "content": "Feel free to reach out to me via email or LinkedIn! I'm always open to discussing new opportunities, collaborations, or just connecting with fellow developers.",
+    "metadata": { "section": "contact", "type": "message" }
+  }, {
+    "id": "hobbies",
+    "category": "about",
+    "content": "In my free time, I enjoy running, playing volleyball, and exploring game development. I'm passionate about creating engaging and interactive experiences, whether it's through coding or physical activity.",
+    "metadata": { "section": "about", "type": "hobbies" }
+  }
   // Add more chunks for each project, experience, skill...
 ];

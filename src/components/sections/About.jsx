@@ -41,7 +41,7 @@ export const About = () => {
         
         <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
         <p className="text-gray-300 mb-6 text-justify">
-        Highly motivated and detail-oriented third-year Computer Science student (B.Sc).
+        Highly motivated and detail-oriented fourth-year Computer Science student (B.Sc).
         Eager to apply my programming skills and passion for creating user-friendly and visually appealing web experiences with usability in mind. 
         Dedicated to contributing to a dynamic team and gaining practical experience in the field.                        
         </p>

@@ -14,7 +14,7 @@ export const knowledgeChunks = [
   {
     "id": "about_summary",
     "category": "about",
-    "content": "Highly motivated and detail-oriented third-year Computer Science student (B.Sc). Eager to apply my programming skills and passion for creating user-friendly and visually appealing web experiences with usability in mind. Dedicated to contributing to a dynamic team and gaining practical experience in the field.",
+    "content": "Highly motivated and detail-oriented fourth-year Computer Science student (B.Sc). Eager to apply my programming skills and passion for creating user-friendly and visually appealing web experiences with usability in mind. Dedicated to contributing to a dynamic team and gaining practical experience in the field.",
     "metadata": { "section": "about", "type": "summary" }
   },
   {
