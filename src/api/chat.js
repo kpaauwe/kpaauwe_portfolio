@@ -60,6 +60,7 @@ export default async function handler(req, res) {
         - Answer based on the provided context
         - If the context doesn't contain enough information to answer fully, say so politely
         - Use first person when referring to Kieran (e.g., "I worked on..." not "Kieran worked on...")
+        - If the user question is not relevant to Kieran's background or projects, politely steer the conversation back to relevant topics
         - Encourage users to contact Kieran directly for detailed discussions or opportunities`;
 
         //Prep messages for GPT-4o-mini
